@@ -9,7 +9,7 @@ from huggingface_hub import hf_hub_download
 # ----------------------------------------------------------------------------
 # Config
 # ----------------------------------------------------------------------------
-TMDB_API_KEY = st.secrets.get("tmdb_api_key", "")
+TMDB_API_KEY = "33e1f99be03fafa06033cca28a4c8e47"
 PLACEHOLDER_POSTER = "https://placehold.co/500x750/0b0e14/5ec9c9?text=No+Poster"
 DEFAULT_RECOMMENDATIONS = 10
 MIN_RECOMMENDATIONS = 3
